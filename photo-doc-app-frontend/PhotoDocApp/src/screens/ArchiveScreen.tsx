@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, FlatList, Image, TouchableOpacity, ActivityIndicator } from 'react-native';
 import axios from 'axios';
+import { API_BASE_URL } from '../config/api.js';
 
 interface Props {
   username: string;
@@ -21,7 +22,7 @@ export default function ArchiveScreen({ username, onBack, onPress }: Props) {
   useEffect(() => {
     const fetchPhotos = async () => {
       try {
-        const response = await axios.get(`http://10.0.2.2:5000/api/photos/user/${username}`);
+        const response = await axios.get(`${API_BASE_URL}/api/photos/user/${username}`);
         setPhotos(response.data);
       } catch (error) {
         console.error('Fehler beim Laden der Fotos:', error);

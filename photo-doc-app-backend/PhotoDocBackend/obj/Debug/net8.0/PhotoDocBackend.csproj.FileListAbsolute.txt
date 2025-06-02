@@ -1,74 +1,114 @@
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\appsettings.json
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.exe
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.deps.json
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.runtimeconfig.json
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.dll
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.pdb
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.csproj.AssemblyReference.cache
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.AssemblyInfoInputs.cache
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.AssemblyInfo.cs
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.csproj.CoreCompileInputs.cache
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.sourcelink.json
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets\msbuild.PhotoDocBackend.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets\msbuild.build.PhotoDocBackend.props
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PhotoDocBackend.props
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PhotoDocBackend.props
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\scopedcss\bundle\PhotoDocBackend.styles.css
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDoc.2F8225AE.Up2Date
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.dll
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\refint\PhotoDocBackend.dll
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.pdb
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.genruntimeconfig.cache
-C:\Users\Nico\Desktop\Valprovia Assesment Task\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\ref\PhotoDocBackend.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\appsettings.json
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.exe
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.deps.json
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.runtimeconfig.json
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\PhotoDocBackend.pdb
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.csproj.AssemblyReference.cache
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.AssemblyInfoInputs.cache
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.AssemblyInfo.cs
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.csproj.CoreCompileInputs.cache
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.sourcelink.json
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets\msbuild.PhotoDocBackend.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets\msbuild.build.PhotoDocBackend.props
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PhotoDocBackend.props
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PhotoDocBackend.props
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\scopedcss\bundle\PhotoDocBackend.styles.css
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDoc.2F8225AE.Up2Date
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\refint\PhotoDocBackend.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.pdb
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\PhotoDocBackend.genruntimeconfig.cache
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\obj\Debug\net8.0\ref\PhotoDocBackend.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\DnsClient.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\MongoDB.Bson.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\MongoDB.Driver.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\SharpCompress.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\Snappier.dll
-C:\Users\Nico\Desktop\V\photo-doc-app-backend\PhotoDocBackend\bin\Debug\net8.0\ZstdSharp.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/appsettings.json
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.exe
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.deps.json
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.runtimeconfig.json
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.pdb
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.csproj.AssemblyReference.cache
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.AssemblyInfoInputs.cache
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.AssemblyInfo.cs
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.csproj.CoreCompileInputs.cache
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.sourcelink.json
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.PhotoDocBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.build.PhotoDocBackend.props
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PhotoDocBackend.props
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PhotoDocBackend.props
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/scopedcss/bundle/PhotoDocBackend.styles.css
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDoc.2F8225AE.Up2Date
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/refint/PhotoDocBackend.dll
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.pdb
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.genruntimeconfig.cache
+C:/Users/Nico/Desktop/Valprovia Assesment Task/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/ref/PhotoDocBackend.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/appsettings.json
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.exe
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.deps.json
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.runtimeconfig.json
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.pdb
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.csproj.AssemblyReference.cache
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.AssemblyInfoInputs.cache
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.AssemblyInfo.cs
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.csproj.CoreCompileInputs.cache
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.sourcelink.json
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.PhotoDocBackend.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.build.PhotoDocBackend.props
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PhotoDocBackend.props
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PhotoDocBackend.props
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/scopedcss/bundle/PhotoDocBackend.styles.css
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDoc.2F8225AE.Up2Date
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/refint/PhotoDocBackend.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.pdb
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.genruntimeconfig.cache
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/ref/PhotoDocBackend.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/DnsClient.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/MongoDB.Bson.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/MongoDB.Driver.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/SharpCompress.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Snappier.dll
+C:/Users/Nico/Desktop/V/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/ZstdSharp.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/appsettings.Development.json
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/appsettings.json
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.deps.json
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.runtimeconfig.json
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/PhotoDocBackend.pdb
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/DnsClient.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/MongoDB.Bson.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/MongoDB.Driver.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/SharpCompress.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Snappier.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/bin/Debug/net8.0/ZstdSharp.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.csproj.AssemblyReference.cache
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.AssemblyInfoInputs.cache
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.AssemblyInfo.cs
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.csproj.CoreCompileInputs.cache
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cs
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.MvcApplicationPartsAssemblyInfo.cache
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.sourcelink.json
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.build.json
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.development.json
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.PhotoDocBackend.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.build.PhotoDocBackend.props
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.PhotoDocBackend.props
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.PhotoDocBackend.props
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/scopedcss/bundle/PhotoDocBackend.styles.css
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDoc.2F8225AE.Up2Date
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/refint/PhotoDocBackend.dll
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.pdb
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/PhotoDocBackend.genruntimeconfig.cache
+/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/Debug/net8.0/ref/PhotoDocBackend.dll

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity, ActivityIndicator, ScrollView } from 'react-native';
 import axios from 'axios';
+import { API_BASE_URL } from '../config/api.js';
 
 interface Props {
   photoId: string;
@@ -26,7 +27,7 @@ export default function PhotoMetadataScreen({ photoId, onBack }: Props) {
   useEffect(() => {
     const fetchPhoto = async () => {
       try {
-        const response = await axios.get(`http://10.0.2.2:5000/api/photos/${photoId}`);
+        const response = await axios.get(`${API_BASE_URL}/api/photos/${photoId}`);
         setPhoto(response.data);
       } catch (error) {
         console.error('Fehler beim Laden der Bilddetails:', error);

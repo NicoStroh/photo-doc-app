@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import axios from 'axios';
 import Icon from 'react-native-vector-icons/Ionicons';
+import { API_BASE_URL } from '../config/api.js';
 
 interface Props {
   floorId: number;
@@ -30,7 +31,7 @@ export default function SelectApartmentScreen({ floorId, floorName, onBack, onSe
   useEffect(() => {
     const fetchApartments = async () => {
       try {
-        const response = await axios.get(`http://10.0.2.2:5000/api/location/floors/${floorId}/apartments`);
+        const response = await axios.get(`${API_BASE_URL}/api/location/floors/${floorId}/apartments`);
         setApartments(response.data);
       } catch (err) {
         console.error('Fehler beim Laden der Apartments', err);

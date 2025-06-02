@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Alert } from 'react-native';
 import axios from 'axios';
+import { API_BASE_URL } from '../config/api.js';
 
-interface LoginScreenProps {
-  onLoginSuccess: (username) => void;
+interface Props {
+  onLoginSuccess: (username: string) => void;
 }
 
-export default function LoginScreen({ onLoginSuccess }: LoginScreenProps) {
+export default function LoginScreen({ onLoginSuccess }: Props) {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
@@ -17,7 +18,7 @@ export default function LoginScreen({ onLoginSuccess }: LoginScreenProps) {
     }
 
     try {
-      const response = await axios.post('http://10.0.2.2:5000/api/auth/login', {
+      const response = await axios.post(`${API_BASE_URL}/api/auth/login`, {
         username,
         password,
       });

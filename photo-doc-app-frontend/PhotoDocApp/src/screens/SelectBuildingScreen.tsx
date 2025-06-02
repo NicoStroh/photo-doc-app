@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import axios from 'axios';
 import Icon from 'react-native-vector-icons/Ionicons';
+import { API_BASE_URL } from '../config/api.js';
 
 interface Props {
   onBack: () => void;
@@ -28,7 +29,7 @@ export default function SelectBuildingScreen({ onBack, onSelectBuilding }: Props
   useEffect(() => {
     const fetchBuildings = async () => {
       try {
-        const response = await axios.get('http://10.0.2.2:5000/api/location/buildings');
+        const response = await axios.get(`${API_BASE_URL}/api/location/buildings`);
         setBuildings(response.data);
       } catch (error) {
         console.error('Fehler beim Laden der Gebäude:', error);

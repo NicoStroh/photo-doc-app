@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nico\\Desktop\\V\\photo-doc-app-backend\\PhotoDocBackend\\PhotoDocBackend.csproj": {}
+    "/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/PhotoDocBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nico\\Desktop\\V\\photo-doc-app-backend\\PhotoDocBackend\\PhotoDocBackend.csproj": {
+    "/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/PhotoDocBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nico\\Desktop\\V\\photo-doc-app-backend\\PhotoDocBackend\\PhotoDocBackend.csproj",
+        "projectUniqueName": "/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/PhotoDocBackend.csproj",
         "projectName": "PhotoDocBackend",
-        "projectPath": "C:\\Users\\Nico\\Desktop\\V\\photo-doc-app-backend\\PhotoDocBackend\\PhotoDocBackend.csproj",
-        "packagesPath": "C:\\Users\\Nico\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nico\\Desktop\\V\\photo-doc-app-backend\\PhotoDocBackend\\obj\\",
+        "projectPath": "/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/PhotoDocBackend.csproj",
+        "packagesPath": "/Users/nicostrohbach/.nuget/packages/",
+        "outputPath": "/Users/nicostrohbach/Documents/photo-doc-app/photo-doc-app-backend/PhotoDocBackend/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nico\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nicostrohbach/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

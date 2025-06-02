@@ -16,6 +16,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import CheckBox from '@react-native-community/checkbox';
 import DropDownPicker from 'react-native-dropdown-picker';
 import axios from 'axios';
+import { API_BASE_URL } from '../config/api.js';
 
 interface Props {
   imageUri: string;
@@ -23,7 +24,7 @@ interface Props {
   onBack: () => void;
   username: string;
   onStartUpload: () => void;
-  onFinishUpload: (success) => void;
+  onFinishUpload: (success: boolean) => void;
 }
 
 export default function MetadataScreen({ imageUri, location, onBack, username, onStartUpload, onFinishUpload} : Props) {
@@ -75,7 +76,7 @@ export default function MetadataScreen({ imageUri, location, onBack, username, o
     } as any);
 
     try {
-      const response = await axios.post(`http://10.0.2.2:5000/api/photos/upload`, formData, {
+      const response = await axios.post(`${API_BASE_URL}/api/photos/upload`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
