@@ -40,7 +40,7 @@ export default function CaptureImageScreen({ location, onBack, onSave }: Props) 
             await request(permission);
           }
         }
-  }
+    }
 
   const handleCapture = async () => {
 
@@ -152,6 +152,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     padding: 16,
+    marginBottom: 40,
   },
   changeButton: {
     backgroundColor: '#ccc',
@@ -181,6 +182,10 @@ const styles = StyleSheet.create({
     color: '#888',
   },
   footer: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
     backgroundColor: '#007BFF',
     padding: 16,
     flexDirection: 'row',

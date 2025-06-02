@@ -64,7 +64,7 @@ export default function SelectBuildingScreen({ onBack, onSelectBuilding }: Props
       <View style={styles.footer}>
         <Text style={styles.footerText}>Location</Text>
         <TouchableOpacity onPress={onBack}>
-          <Icon name="arrow-back" size={24} color="#000" />
+          <Icon name="arrow-back" size={24} color="#fff" />
         </TouchableOpacity>
       </View>
     </SafeAreaView>
@@ -82,6 +82,10 @@ const styles = StyleSheet.create({
   },
   itemText: { fontSize: 18 },
   footer: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
     backgroundColor: '#007BFF',
     padding: 16,
     flexDirection: 'row',
@@ -89,6 +93,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   footerText: {
+    color: '#fff',
     fontWeight: 'bold',
     fontSize: 16,
     flex: 1,

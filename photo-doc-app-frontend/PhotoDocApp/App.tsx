@@ -145,8 +145,8 @@ export default function App() {
 
       {screen === 'successful-save' && uploadSuccess && (
         <SuccessfulUploadScreen
-          onDone={() => setScreen('home')}
-          onAddAnother={() => setScreen('select-building')}
+          onDone={() => setScreen('login')}
+          onAddAnother={() => setScreen('capture-image')}
         />
       )}
 
