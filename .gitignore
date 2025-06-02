@@ -1,5 +1,3 @@
-node_modules/ 
-ios/Pods/ 
-*.log 
-bin/ 
-obj/ 
+photo-doc-app-frontend/PhotoDocApp/node_modules/ 
+photo-doc-app-backend/PhotoDocApp/bin/ 
+photo-doc-app-backend/PhotoDocApp/obj/ 
