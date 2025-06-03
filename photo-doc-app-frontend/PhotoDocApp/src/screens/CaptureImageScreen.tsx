@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     padding: 16,
-    marginBottom: 40,
+    marginBottom: 50,
   },
   changeButton: {
     backgroundColor: '#ccc',

@@ -21,6 +21,7 @@ type Screen =
   | 'select-apartment'
   | 'select-room'
   | 'metadata'
+  | 'spinner'
   | 'successful-save'
   | 'archive'
   | 'photo-metadata';
@@ -134,6 +135,7 @@ export default function App() {
           onStartUpload={() => {
             setIsUploading(true);
             setUploadSuccess(false);
+            setScreen('spinner');
           }}
           onFinishUpload={(success) => {
             setIsUploading(false);
@@ -169,7 +171,7 @@ export default function App() {
       )}
 
 
-      {isUploading && <SpinnerScreen />}
+      {screen === 'spinner' && isUploading && <SpinnerScreen />}
     </View>
   );
 }

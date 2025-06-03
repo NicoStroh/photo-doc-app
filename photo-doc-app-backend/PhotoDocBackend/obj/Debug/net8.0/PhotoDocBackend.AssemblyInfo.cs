@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotoDocBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6586f4c82987eae86d040df12879273664147f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39af2d7cdace938a3dd741d0c359ee65b835971d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotoDocBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotoDocBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
