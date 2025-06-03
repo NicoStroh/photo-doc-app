@@ -44,13 +44,6 @@ export default function CaptureImageScreen({ location, onBack, onSave }: Props) 
 
   const handleCapture = async () => {
 
-    if (Platform.OS === 'ios') {
-      // Simulator: Fake-Kamera
-      const mockImageUri = Image.resolveAssetSource(require('../assets/mock-image.jpg')).uri;
-      setImageUri(mockImageUri);
-      return;
-    }
-
     const hasPermission = await requestPermission();
 
     try {
@@ -159,7 +152,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     padding: 16,
-    marginBottom: 50,
+    marginBottom: 60,
   },
   changeButton: {
     backgroundColor: '#ccc',

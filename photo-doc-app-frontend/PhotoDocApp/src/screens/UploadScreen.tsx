@@ -1,39 +1,46 @@
 import React, { useState } from 'react';
 import {
-    View,
-    Text,
-    Image,
-    TextInput,
-    Button,
-    StyleSheet,
-    ScrollView,
-    TouchableOpacity,
-    KeyboardAvoidingView,
-    Platform,
-    Alert
-    } from 'react-native';
+  View,
+  Text,
+  Image,
+  TextInput,
+  Button,
+  StyleSheet,
+  KeyboardAvoidingView,
+  Platform,
+  TouchableOpacity,
+  Alert,
+} from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import CheckBox from '@react-native-community/checkbox';
 import DropDownPicker from 'react-native-dropdown-picker';
 import axios from 'axios';
-import { API_BASE_URL } from '../config/api.js';
+import { API_BASE_URL } from '../config/api';
+import SpinnerScreen from './SpinnerScreen';
 
 interface Props {
   imageUri: string;
   location: string;
-  onBack: () => void;
   username: string;
-  onStartUpload: () => void;
+  onBack: () => void;
   onFinishUpload: (success: boolean) => void;
 }
 
-export default function MetadataScreen({ imageUri, location, onBack, username, onStartUpload, onFinishUpload} : Props) {
+export default function UploadScreen({
+  imageUri,
+  location,
+  username,
+  onBack,
+  onFinishUpload,
+}: Props) {
+
+  const [uploading, setUploading] = useState(false);
 
   const [craftOpen, setCraftOpen] = useState(false);
   const [defectTypeOpen, setDefectTypeOpen] = useState(false);
 
-  const [craft, setCraft] = useState(null);
-  const [defectType, setDefectType] = useState(null);
+  const [craft, setCraft] = useState<string | null>(null);
+  const [defectType, setDefectType] = useState<string | null>(null);
   const [description, setDescription] = useState('');
   const [startProcess, setStartProcess] = useState(false);
 
@@ -53,22 +60,21 @@ export default function MetadataScreen({ imageUri, location, onBack, username, o
     { label: 'Fenster', value: 'Fenster' },
   ]);
 
-  const [uploading, setUploading] = useState(false);
-
   const handleSave = async () => {
+    if (!craft || !defectType) {
+      Alert.alert('Fehler', 'Bitte Gewerke und Mangeltyp auswählen.');
+      return;
+    }
 
-    onStartUpload();
+    setUploading(true);
 
     const formData = new FormData();
-
     formData.append('username', username);
     formData.append('craft', craft);
     formData.append('defectType', defectType);
     formData.append('description', description);
     formData.append('startProcess', startProcess.toString());
     formData.append('location', location);
-
-    // Konvertiere URI in File-Objekt
     formData.append('image', {
       uri: imageUri,
       name: 'photo.jpg',
@@ -83,15 +89,19 @@ export default function MetadataScreen({ imageUri, location, onBack, username, o
       });
 
       console.log('Upload erfolgreich:', response.data);
-      return response.data;
+      onFinishUpload(true);
     } catch (error) {
       console.error('Upload fehlgeschlagen:', error);
-      throw error;
+      Alert.alert('Fehlgeschlagen', 'Upload fehlgeschlagen.');
+      onFinishUpload(false);
     } finally {
-      onFinishUpload(true);
+      setUploading(false);
     }
-
   };
+
+  if (uploading) {
+    return <SpinnerScreen />;
+  }
 
   return (
     <KeyboardAvoidingView
@@ -140,10 +150,7 @@ export default function MetadataScreen({ imageUri, location, onBack, username, o
           />
 
           <View style={styles.checkboxContainer}>
-            <CheckBox
-              value={startProcess}
-              onValueChange={setStartProcess}
-            />
+            <CheckBox value={startProcess} onValueChange={setStartProcess} />
             <Text style={styles.checkboxLabel}>Mängelprozess starten</Text>
           </View>
 
@@ -159,7 +166,6 @@ export default function MetadataScreen({ imageUri, location, onBack, username, o
       </View>
     </KeyboardAvoidingView>
   );
-
 }
 
 const styles = StyleSheet.create({
@@ -215,9 +221,5 @@ const styles = StyleSheet.create({
     fontSize: 16,
     flex: 1,
     textAlign: 'center',
-  },
-  locationText: {
-    flexShrink: 1,
-    fontStyle: 'italic',
   },
 });

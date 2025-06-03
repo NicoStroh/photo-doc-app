@@ -13,14 +13,14 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { API_BASE_URL } from '../config/api.js';
 
 interface Props {
-  floorId: number;
+  floorId: string;
   floorName: string;
   onBack: () => void;
-  onSelectApartment: (apartmentId: number, apartmentName: string) => void;
+  onSelectApartment: (apartmentId: string, apartmentName: string) => void;
 }
 
 interface Apartment {
-  id: number;
+  id: string;
   name: string;
 }
 

@@ -1,20 +1,24 @@
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
 namespace PhotoDocApi.Models;
 
 public class Apartment
 {
-    public int Id { get; set; }
+    [BsonRepresentation(BsonType.ObjectId)]
+    public string Id { get; set; } = string.Empty;
     public string Name { get; set; }
     public List<Room> Rooms { get; set; }
 
-    public Apartment(int id, string name)
+    public Apartment(string name)
     {
-        Id = id;
+        Id = ObjectId.GenerateNewId().ToString();
         Name = name;
         Rooms = new List<Room> {
-            new Room(1, "Office"),
-            new Room(2, "Dining Room"),
-            new Room(3, "Kitchen"),
-            new Room(4, "Bedroom")
+            new Room("Office"),
+            new Room("Dining Room"),
+            new Room("Kitchen"),
+            new Room("Bedroom")
         };
     }
 

@@ -30,14 +30,14 @@ public class LocationController : ControllerBase
     }
 
     [HttpGet("floors/{floorId}/apartments")]
-    public async Task<ActionResult<List<Apartment>>> GetApartments(int floorId)
+    public async Task<ActionResult<List<Apartment>>> GetApartments(string floorId)
     {
         var apartments = await _locationService.GetApartmentsAsync(floorId);
         return Ok(apartments);
     }
 
     [HttpGet("apartments/{apartmentId}/rooms")]
-    public async Task<ActionResult<List<Room>>> GetRooms(int apartmentId)
+    public async Task<ActionResult<List<Room>>> GetRooms(string apartmentId)
     {
         var rooms = await _locationService.GetRoomsAsync(apartmentId);
         return Ok(rooms);

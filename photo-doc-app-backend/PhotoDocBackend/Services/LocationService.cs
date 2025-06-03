@@ -22,10 +22,12 @@ public class LocationService
     public async Task<List<Floor>> GetFloorsAsync(string buildingId)
     {
         var building = await _buildings.Find(b => b.Id == buildingId).FirstOrDefaultAsync();
-        return building?.Floors ?? new();
+        if (building != null)
+            return building.Floors;
+        return new();
     }
 
-    public async Task<List<Apartment>> GetApartmentsAsync(int floorId)
+    public async Task<List<Apartment>> GetApartmentsAsync(string floorId)
     {
         var buildings = await _buildings.Find(_ => true).ToListAsync();
         foreach (var b in buildings)
@@ -37,7 +39,7 @@ public class LocationService
         return new();
     }
 
-    public async Task<List<Room>> GetRoomsAsync(int apartmentId)
+    public async Task<List<Room>> GetRoomsAsync(string apartmentId)
     {
         var buildings = await _buildings.Find(_ => true).ToListAsync();
         foreach (var b in buildings)

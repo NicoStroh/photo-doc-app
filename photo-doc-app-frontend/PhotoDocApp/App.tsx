@@ -7,7 +7,7 @@ import SelectFloorScreen from './src/screens/SelectFloorScreen';
 import SelectApartmentScreen from './src/screens/SelectApartmentScreen';
 import SelectRoomScreen from './src/screens/SelectRoomScreen';
 import CaptureImageScreen from './src/screens/CaptureImageScreen';
-import MetadataScreen from './src/screens/MetadataScreen';
+import UploadScreen from './src/screens/UploadScreen';
 import SpinnerScreen from './src/screens/SpinnerScreen';
 import SuccessfulUploadScreen from './src/screens/SuccessfulUploadScreen';
 import ArchiveScreen from './src/screens/ArchiveScreen';
@@ -20,8 +20,7 @@ type Screen =
   | 'select-floor'
   | 'select-apartment'
   | 'select-room'
-  | 'metadata'
-  | 'spinner'
+  | 'upload'
   | 'successful-save'
   | 'archive'
   | 'photo-metadata';
@@ -30,13 +29,13 @@ export default function App() {
   const [screen, setScreen] = useState<Screen>('login');
 
   const [username, setUsername] = useState<string | null>(null);
+  
   const [selectedBuilding, setSelectedBuilding] = useState<{ id: string; name: string } | null>(null);
   const [selectedFloor, setSelectedFloor] = useState<{ id: string; name: string } | null>(null);
   const [selectedApartment, setSelectedApartment] = useState<{ id: string; name: string } | null>(null);
   const [selectedRoom, setSelectedRoom] = useState<{ id: string; name: string } | null>(null);
 
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [isUploading, setIsUploading] = useState(false);
   const [uploadSuccess, setUploadSuccess] = useState(false);
 
   const location =
@@ -121,24 +120,18 @@ export default function App() {
             onBack={() => setScreen('select-room')}
             onSave={(imageUri) => {
               setSelectedImage(imageUri);
-              setScreen('metadata');
+              setScreen('upload');
             }}
           />
         )}
 
-      {screen === 'metadata' && selectedImage && (
-        <MetadataScreen
+      {screen === 'upload' && selectedImage && (
+        <UploadScreen
           imageUri={selectedImage}
           location={location}
           username={username}
           onBack={() => setScreen('capture-image')}
-          onStartUpload={() => {
-            setIsUploading(true);
-            setUploadSuccess(false);
-            setScreen('spinner');
-          }}
           onFinishUpload={(success) => {
-            setIsUploading(false);
             setUploadSuccess(success);
             setScreen('successful-save');
           }}
@@ -169,9 +162,6 @@ export default function App() {
           onBack={() => setScreen('archive')}
         />
       )}
-
-
-      {screen === 'spinner' && isUploading && <SpinnerScreen />}
     </View>
   );
 }
