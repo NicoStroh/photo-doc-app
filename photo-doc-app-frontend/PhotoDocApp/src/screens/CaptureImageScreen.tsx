@@ -44,6 +44,13 @@ export default function CaptureImageScreen({ location, onBack, onSave }: Props) 
 
   const handleCapture = async () => {
 
+    if (Platform.OS === 'ios') {
+      // Simulator: Fake-Kamera
+      const mockImageUri = Image.resolveAssetSource(require('../assets/mock-image.jpg')).uri;
+      setImageUri(mockImageUri);
+      return;
+    }
+
     const hasPermission = await requestPermission();
 
     try {
